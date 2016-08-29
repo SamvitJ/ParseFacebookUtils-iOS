@@ -560,6 +560,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = F535C73A1B54B4A800A7D81E;
 					};
+					D2AAC07D0554694100DB518D = {
+						DevelopmentTeam = PFW5N3BMBW;
+					};
 					F535C73A1B54B4A800A7D81E = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -801,6 +804,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64A1B5838560051AB86 /* ParseFacebookUtilsV4-iOS.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -808,6 +817,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F52CD64A1B5838560051AB86 /* ParseFacebookUtilsV4-iOS.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
